@@ -1,0 +1,3 @@
+[submodule "pdt-openxpki-config"]
+	path = pdt-openxpki-config
+	url = https://github.com/marcelmaatkamp/pdt-openxpki-config.git
