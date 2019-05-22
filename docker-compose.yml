@@ -24,7 +24,7 @@ services:
    - openxpkilog:/var/log/openxpki
    - openxpkisocket:/var/openxpki/
   depends_on:
-   - db
+   - openxpki-db
 
  openxpki-client:
   restart: always
