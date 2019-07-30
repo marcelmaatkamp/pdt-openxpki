@@ -30,9 +30,6 @@ services:
   restart: always
   image: whiterabbitsecurity/openxpki
   command: "/usr/sbin/apache2ctl -D FOREGROUND"
-  ports:
-   - "8080:80/tcp"
-   - "8443:443/tcp"
   volumes:
    - ./openxpki-config:/etc/openxpki
    - openxpkilog:/var/log/openxpki
