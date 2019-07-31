@@ -1,5 +1,11 @@
 # pdt-openxpki
+
 openxpi docker container providing pki
+
+Original gcan be found at:
+ - https://github.com/openxpki/openxpki-docker
+ - https://github.com/openxpki/openxpki-config
+
 
 # Usage
 ```
